@@ -265,15 +265,18 @@ p {
   padding-bottom: 120px;
   margin-top: 72px;
 }
-.portfolio-list-item {
-  border: 1px solid #e7e9fc;
-}
+
 .our-portfolio {
   padding-top: 32px;
   padding-left: 16px;
   margin-bottom: 8px;
 }
 
+.text-wrapper {
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+}
 .text-portfolio {
   padding-bottom: 32px;
   padding-left: 16px;
