@@ -18,29 +18,30 @@
 
 <body>
     <header class="header-section">
-        <nav>
-            <div class="container container-nav-header">
-                <a class="header-logo" href="./index.html">Web<span class="studio">Studio</span></a>
-                <ul class="header-nav">
-                    <li><a class="header-nav-item studio" href="./index.html">Studio</a></li>
-                    <li><a class="header-nav-item portfolio" href="">Portfolio</a></li>
-                    <li><a class="header-nav-item contacts" href="">Contacts</a></li>
-                </ul>
+        <div class="container header">
+            <nav>
+                <div class="container container-nav-header">
+                    <a class="header-logo" href="./index.html">Web<span class="studio">Studio</span></a>
+                    <ul class="header-nav">
+                        <li><a class="header-nav-item studio" href="./index.html">Studio</a></li>
+                        <li><a class="header-nav-item portfolio" href="">Portfolio</a></li>
+                        <li><a class="header-nav-item contacts" href="">Contacts</a></li>
+                    </ul>
+                </div>
+                <!-- <ul class="header-nav">
+                                <li><a class="header-nav-item" href="./index.html">Studio</a></li>
+                                <li><a class="header-nav-item" href="#portfolio">Portfolio</a></li>
+                                <li><a class="header-nav-item" href="#address">Contacts</a></li>
+                            </ul> -->
+            </nav>
+            <div class="container container-address">
+                <address class="header-adress" id="address">
+                    <ul class="container-address-items">
+                        <li><a class="header-adress mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="header-adress tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
             </div>
-            <!-- <ul class="header-nav">
-                            <li><a class="header-nav-item" href="./index.html">Studio</a></li>
-                            <li><a class="header-nav-item" href="#portfolio">Portfolio</a></li>
-                            <li><a class="header-nav-item" href="#address">Contacts</a></li>
-                        </ul> -->
-        </nav>
-    
-        <div class="container container-address">
-            <address class="header-adress" id="address">
-                <ul class="container-address-items">
-                    <li><a class="header-adress mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="header-adress tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
         </div>
     </header>
 
@@ -48,7 +49,7 @@
 <main>
     <!-- Title-section -->
     <section class="section section-page-title">
-        <div>
+        <div class="container titel">
             <h1 class="page-title">Effective Solutions for Your Business</h1>
             <button type="button" class="title-section-button">Order Service</button>
         </div>
@@ -56,8 +57,8 @@
 
     <!-- Features -->
     <section class="section-features">
-        <h2 hidden class="section-title">Features</h2>
-        <div class="features-section-wrapper">
+        <div class="container">
+            <h2 class="section-title visually-hidden">Features</h2>
             <ul class="section-list">
                 <li class="section-features-list strategy">
                     <h3 class="column-title">Strategy</h3>
@@ -182,7 +183,7 @@
 <footer class="footer">
     <div class="footer-wrapper">
         <a class="footer-logo" href="./index.html">Web<span class="footer-studio">Studio</span></a>
-        <p class="footer">Increase the flow of customers and sales for your business with digital marketing & growth
+        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth
             solutions.
         </p>
     </div>
