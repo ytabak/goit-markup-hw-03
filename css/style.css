@@ -42,34 +42,29 @@ p {
 
 /* header */
 
-.container{
+.container {
   width: 1158px;
-  padding: 0 15px 0 15px
+  padding: 0 15px 0 15px;
 }
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
-  padding-left: 156px;
-  padding-right: 156px;
   width: 100%;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
-
 .header-section {
-  /* display: flex; 
-  flex-direction: row;
-  justify-content: space-between; /* Распределяем элементы по ширине */
-  align-items: center; Центрируем элементы по вертикали */
+  border-bottom: 1px solid #e7e9fc;
+  width: 1158px;
+  padding: 0 15px;
 }
 .nav-header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
-  
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -79,7 +74,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px
+  margin-right: 76px;
 }
 .studio {
   color: #2e2f42;
@@ -87,7 +82,7 @@ p {
 .header-nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
@@ -156,11 +151,9 @@ p {
 }
 .section-page-title {
   background-color: #2e2f42;
-  padding: 188px 0 
-  
+  padding: 188px 0;
 }
-.titel{
-  
+.titel {
 }
 .title-section-button {
   background-color: #4d5ae5;
@@ -190,8 +183,8 @@ p {
   background-color: #404bbf;
 }
 
-.section-features{
-  padding-top: 120px; 
+.section-features {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -206,10 +199,7 @@ p {
   text-transform: capitalize;
 }
 .section-features {
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-bottom: 120px;
-  padding-top: 120px;
+  padding: 120px 0;
 }
 .section-title {
   line-height: 1.2;
@@ -242,13 +232,12 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center; 
+  text-align: center;
 }
-
 
 .team-section {
   background: #f4f4fd;
-  padding-top: 120px; 
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -260,12 +249,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-bottom: 120px;
   gap: 24px;
 }
-
 
 .team-section-item {
   background-color: #ffffff;
@@ -280,18 +265,18 @@ p {
 }
 
 .team-member-name {
-  padding-top: 32px; 
+  padding-top: 32px;
   padding-bottom: 32px;
 }
-.text-team{
-  text-align: center; 
+.text-team {
+  text-align: center;
 }
-.portfolio-section.section{
+.portfolio-section.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.portfolio.section-title{
+.portfolio.section-title {
   text-align: center;
   margin-bottom: 72px;
 }
@@ -303,11 +288,10 @@ p {
   align-content: flex-start;
   row-gap: 48px;
   column-gap: 24px;
-
 }
- .portfolio-list-item {
-  width: calc((100% - 24px * 2) /3);
-} 
+.portfolio-list-item {
+  width: calc((100% - 24px * 2) / 3);
+}
 
 .text-wrapper {
   padding: 32px 16px;
@@ -316,17 +300,16 @@ p {
   border-left: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
 }
-.our-portfolio{
+.our-portfolio {
   text-align: left;
 }
-
-
 
 /* footer */
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
-.footer-text{
+.footer-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -343,7 +326,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block; 
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-studio {
@@ -351,7 +334,6 @@ p {
 }
 
 .footer-wrapper {
-
   padding-left: 156px;
   padding-top: 100px;
   padding-bottom: 100px;
