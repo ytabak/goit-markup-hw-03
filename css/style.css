@@ -53,8 +53,8 @@ p {
   justify-content: space-between;
   text-align: center;
   width: 1158px;
-  margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
 }
 
 .header-section {
@@ -150,6 +150,7 @@ p {
   display: block;
   max-width: 496px;
   margin: auto;
+  margin-bottom: 48px;
 }
 .section-page-title {
   background-color: #2e2f42;
